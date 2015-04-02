@@ -1,0 +1,27 @@
+{
+  "author": "Svein Inge Albrigtsen",
+  "name": "nnn-session",
+  "description": "nnn-session",
+  "version": "0.0.0",
+  "main": "lib/session.js",
+  "scripts": {
+    "test": "nodeunit test/*.js --reporter=verbose",
+    "coverage": "jscoverage lib && NNN_SESSION_COV=1 nodeunit --reporter=lcov test/*.js",
+    "coveralls": "npm run coverage | coveralls"
+  },
+  "dependencies": {
+    "buffer-crc32": "^0.2.5",
+    "uid-safe": "^1.1.0"
+  },
+  "devDependencies": {
+    "cookies": "^0.5.0",
+    "coveralls": "^2.11.2",
+    "jscoverage": "^0.5.9",
+    "keygrip": "^1.0.1",
+    "logule": "^2.0.1",
+    "nnn": "^1.1.1",
+    "nodeunit": "^0.9.1",
+    "request": "^2.54.0"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,4 @@
+lib-cov/
+node_modules/
+notes
+.logule.json
