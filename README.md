@@ -1,4 +1,6 @@
 # nnn-session
+[![build status](https://secure.travis-ci.org/Thhethssmuz/nnn-session.svg)](http://travis-ci.org/Thhethssmuz/nnn-session)
+[![coverage status](http://img.shields.io/coveralls/Thhethssmuz/nnn-session.svg)](https://coveralls.io/r/Thhethssmuz/nnn-session)
 
 ## Setup
 
