@@ -63,11 +63,11 @@ The session store is an object supporting the following functions:
 
 Forces the session cookie to updated resetting the cookie's expiration. If `rolling` sessions are enabled then this method is called on every request and needs not be called manually.
 
-### Session.save()
+### Session.save([callback])
 
 Forces the session to be saved even if the session has not been modified.
 
-### Session.destroy()
+### Session.destroy([callback])
 
 Deletes the current session. Setting the session to `null` or using `delete` on it will also delete the session.
 
