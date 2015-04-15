@@ -2,7 +2,7 @@
   "author": "Svein Inge Albrigtsen",
   "name": "nnn-session",
   "description": "nnn-session",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "lib/session.js",
   "repository": {
     "type": "git",
