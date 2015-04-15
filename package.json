@@ -4,6 +4,10 @@
   "description": "nnn-session",
   "version": "0.1.0",
   "main": "lib/session.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Thhethssmuz/nnn-session.git"
+  },
   "scripts": {
     "test": "nodeunit test/*.js --reporter=verbose",
     "coverage": "jscoverage lib && NNN_SESSION_COV=1 nodeunit --reporter=lcov test/*.js",
